@@ -1,0 +1,6 @@
+{
+  "name": "Talking Bot",
+  "description": "Your intelligent AI conversation assistant with multi-turn chat, voice interaction, history management, and .NET C# architecture.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
