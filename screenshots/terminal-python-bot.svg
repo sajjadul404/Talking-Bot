@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="20" fill="url(#bgGrad)" />
+
+  <g transform="translate(60, 40)">
+    <!-- Terminal Window -->
+    <rect width="1080" height="600" rx="14" fill="#030712" stroke="#1f2937" stroke-width="2" />
+    
+    <!-- Titlebar -->
+    <rect width="1080" height="42" rx="14" fill="#111827" />
+    <circle cx="25" cy="21" r="6" fill="#ef4444" />
+    <circle cx="45" cy="21" r="6" fill="#eab308" />
+    <circle cx="65" cy="21" r="6" fill="#22c55e" />
+    <text x="540" y="26" fill="#9ca3af" font-family="monospace" font-size="13" text-anchor="middle">
+      bash — python toking_bot.py (gemini-3.8-flash)
+    </text>
+
+    <!-- Terminal Content Lines -->
+    <g transform="translate(35, 75)" font-family="'JetBrains Mono', Consolas, Monaco, monospace" font-size="13">
+      <!-- Command prompt -->
+      <text x="0" y="20" fill="#22c55e">user@dev:~/talking_bot$</text>
+      <text x="210" y="20" fill="#f3f4f6">python toking_bot.py</text>
+
+      <text x="0" y="55" fill="#38bdf8">============================================================</text>
+      <text x="0" y="80" fill="#38bdf8">            🤖 Welcome to AI Talking Bot! 🤖</text>
+      <text x="0" y="105" fill="#38bdf8">      Type 'exit' or 'quit' anytime to end the chat.</text>
+      <text x="0" y="130" fill="#38bdf8">============================================================</text>
+
+      <text x="0" y="170" fill="#a855f7">Connected to Gemini (gemini-3.8-flash)! Let's start chatting.</text>
+
+      <text x="0" y="210" fill="#fbbf24">You: <tspan fill="#f3f4f6">Hello! Can you write a quick C# class for Student record?</tspan></text>
+
+      <text x="0" y="250" fill="#38bdf8">Bot: <tspan fill="#e5e7eb">Certainly! Here is a modern C# 12 / .NET 8 positional record:</tspan></text>
+      <text x="0" y="280" fill="#94a3b8">     public record Student(int Id, string Name, string Department, double GPA);</text>
+      <text x="0" y="310" fill="#e5e7eb">     This generates immutable properties, value equality, and deconstructors automatically!</text>
+
+      <text x="0" y="360" fill="#fbbf24">You: <tspan fill="#f3f4f6">What is 25 * 4?</tspan></text>
+
+      <text x="0" y="400" fill="#38bdf8">Bot: <tspan fill="#e5e7eb">25 * 4 = 100.</tspan></text>
+
+      <text x="0" y="445" fill="#fbbf24">You: <tspan fill="#f3f4f6">quit</tspan></text>
+
+      <text x="0" y="480" fill="#22c55e">Bot: Thanks for chatting with Talking Bot! See you again.</text>
+
+      <!-- Active prompt with cursor -->
+      <text x="0" y="520" fill="#22c55e">user@dev:~/talking_bot$</text>
+      <rect x="205" y="506" width="9" height="17" fill="#38bdf8" />
+    </g>
+  </g>
+</svg>
