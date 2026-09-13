@@ -36,13 +36,13 @@
 ### ☀️ Light Mode
 
 <div align="center">
-  <img src="screenshots/light-mode.png" alt="Talking Bot Light Mode" width="900" />
+  <img src="screenshots/Light.png" alt="Talking Bot Light Mode" width="900" />
 </div>
 
 ### 🌙 Dark Mode
 
 <div align="center">
-  <img src="screenshots/dark-mode.png" alt="Talking Bot Dark Mode" width="900" />
+  <img src="screenshots/Dark.png" alt="Talking Bot Dark Mode" width="900" />
 </div>
 
 ## 🛠️ Technologies
