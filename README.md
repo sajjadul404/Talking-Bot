@@ -33,13 +33,13 @@
 
 ## 🖥️ Screenshots
 
-### ☀️ Dark Mode
+### 🌙 Dark Mode
 
 <div align="center">
   <img src="screenshots/Dark.png" alt="Talking Bot Dark Mode" width="900" />
 </div>
 
-### 🌙 Light Mode
+### ☀️ Light Mode
 
 <div align="center">
   <img src="screenshots/Light.png" alt="Talking Bot Light Mode" width="900" />
